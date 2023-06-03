@@ -27,7 +27,7 @@ const Footer = () => {
             </div>
             <div className="font-general-regular flex justify-center items-center text-center">
                 <div className="text-lg text-white">
-                    &copy; Web Dev Portfolio &#64;Hamza
+                    &copy; Web Dev Portfolio <a href="https://github.com/Hamza-Azeem1/portfolio.git">&#64;Hamza</a>
                 </div>
             </div>
         </div>
