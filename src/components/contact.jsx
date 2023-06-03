@@ -100,15 +100,15 @@ const Contact = () => {
                                 aria-label="Message"
                             ></textarea>
                         </div>
-                        <button
-                            type="submit"
-                            className="cursor-pointer font-general-medium w-50 px-4 py-2.5 text-white text-center font-medium tracking-wider bg-indigo-500 hover:bg-indigo-600 focus:ring-1 focus:ring-indigo-900 rounded-lg mt-6 duration-500"
-                        >
-                            <div className="flex items-center">
+                        <div className="flex items-center">
+                            <button
+                                type="submit"
+                                className="cursor-pointer font-general-medium w-50 px-4 py-2.5 text-white text-center font-medium tracking-wider bg-indigo-500 hover:bg-indigo-600 focus:ring-1 focus:ring-indigo-900 rounded-lg mt-6 duration-500"
+                            >
                                 <FiSend size={24} />
                                 Send message
-                            </div>
-                        </button>
+                            </button>
+                        </div>
                     </form>
                 </div>
             </div>
