@@ -23,15 +23,15 @@ const Header = () => {
                     <div className="absolute right-0 w-48 bg-gray-900 mt-2 py-2 rounded shadow">
                         <ul className="text-white">
                             <li className="flex items-center py-2 px-4">
-                                <BiCodeCurly className="mr-2" />
+                                <BiCodeCurly className="mr-2" size={25} />
                                 <Link to="/projects">Projects</Link>
                             </li>
                             <li className="flex items-center py-2 px-4">
-                                <BiUser className="mr-2" />
+                                <BiUser className="mr-2" size={25} />
                                 <Link to="/about">About</Link>
                             </li>
                             <li className="flex items-center py-2 px-4">
-                                <BiPhone className="mr-2" />
+                                <BiPhone className="mr-2" size={25} />
                                 <Link to="/contact">Contact</Link>
                             </li>
                         </ul>

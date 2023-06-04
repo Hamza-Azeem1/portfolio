@@ -78,9 +78,10 @@ const ProjectList = () => {
                 ))}
             </div>
             <div className="flex items-center justify-center">
-                <FiAlertCircle className="text-white font-extrabold text-5xl mr-4" />
-                <span className="text-white font-extrabold text-5xl">More Projects Coming Up....</span>
+                <FiAlertCircle className="text-white font-extrabold text-5xl md:text-6xl lg:text-7xl xl:text-5xl mr-4" />
+                <span className="text-white font-extrabold text-3xl md:text-4xl lg:text-5xl xl:text-4xl">More Projects Coming Up....</span>
             </div>
+
         </>
     );
 };

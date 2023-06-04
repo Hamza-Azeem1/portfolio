@@ -1,13 +1,14 @@
 import { FiArrowDownCircle } from 'react-icons/fi';
 import Projects from "./projects";
 import DeveloperImg from "../assets/developer.svg";
+import { saveAs } from 'file-saver';
 
 const Hero = () => {
 
     const handleDownload = () => {
-        // Logic to handle the file download
-        // For example, you can use window.open or a file download library
-        window.open('/public/Cv.pdf', '_blank');
+        const fileUrl = '/public/Hamza Resume.pdf';
+        const fileName = 'Hamza Resume';
+        saveAs(fileUrl, fileName);
     };
 
 

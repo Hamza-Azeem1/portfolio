@@ -65,39 +65,27 @@ const Contact = () => {
                     </div>
                     <div className="text-gray-200 font-lg">
                         <label htmlFor="name">Full Name:</label>
-                        {/* <input
-                            className="w-full px-5 py-2 border border-gray-300 border-opacity-50 text-black bg-gray-400 rounded-md shadow-sm text-md"
-                            type="text"
-                            required
-                            name="name"
-                            placeholder="Your name"
-                        /> */}
                         <textarea
-                            className="w-full px-5 py-2 border border-gray-300 border-opacity-50 text-black bg-gray-400 rounded-md shadow-sm text-md"
+                            className="w-full px-5 py-2 border border-gray-300 border-opacity-50 text-black bg-gray-200 rounded-md shadow-sm text-md"
                             id="name"
                             name="name"
                             cols="2"
                             rows="1"
                             aria-label="Name"
+                            placeholder='your Name'
                         ></textarea>
                     </div>
                     <div className="text-gray-200 font-lg mt-5">
                         <label htmlFor="email">
                             Email id:
                         </label>
-                        {/* <input
-                            className="w-full px-5 py-2 border border-gray-300 border-opacity-50 text-black bg-gray-400 rounded-md shadow-sm text-md"
-                            type="email"
-                            name="email"
-                            placeholder="example@domain.com"
-                            required
-                        /> */}
                         <textarea
-                            className="w-full px-5 py-2 border border-gray-300 border-opacity-50 text-black bg-gray-400 rounded-md shadow-sm text-md"
+                            className="w-full px-5 py-2 border border-gray-300 border-opacity-50 text-black bg-gray-200 rounded-md shadow-sm text-md"
                             id="email"
                             name="email"
                             cols="2"
                             rows="1"
+                            placeholder='example@domain.com'
                             aria-label="Email"
                         ></textarea>
                     </div>
@@ -106,23 +94,25 @@ const Contact = () => {
                             Message:
                         </label>
                         <textarea
-                            className="w-full px-5 py-2 border border-gray-300 border-opacity-50 text-black bg-gray-400 rounded-md shadow-sm text-md"
+                            className="w-full px-5 py-2 border border-gray-300 border-opacity-50 text-black bg-gray-200 rounded-md shadow-sm text-md"
                             id="message"
                             name="message"
                             cols="14"
                             rows="6"
+                            placeholder='type your message here'
                             aria-label="Message"
                         ></textarea>
                     </div>
                     <div className="flex items-center">
                         <button
                             type="submit"
-                            className="cursor-pointer font-general-medium w-full lg:w-1/2 px-4 py-2.5 text-white text-center font-medium tracking-wider bg-indigo-500 hover:bg-indigo-600 focus:ring-1 focus:ring-indigo-900 rounded-lg mt-6 duration-500"
+                            className="cursor-pointer flex items-center justify-center font-general-medium w-full lg:w-1/2 px-4 py-2.5 text-white text-center font-medium tracking-wider bg-indigo-500 hover:bg-indigo-600 focus:ring-1 focus:ring-indigo-900 rounded-lg mt-6 duration-500"
                         >
-                            <FiSend size={24} />
+                            <FiSend size={25} className="mr-2" />
                             Send message
                         </button>
                     </div>
+
                 </form>
             </div>
             <ToastContainer />

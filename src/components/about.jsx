@@ -59,7 +59,7 @@ const About = () => {
                     <h4 className="text-2xl text-gray-200 mr-4">Feel free to contact me.. I will be in touch with you soon....</h4>
                     <div className="flex items-center justify-center">
                         <button className="cursor-pointer font-general-medium w-40 px-4 py-2.5 text-white text-center font-medium tracking-wider bg-indigo-500 hover:bg-indigo-600 focus:ring-1 focus:ring-indigo-900 rounded-lg mt-6 duration-500 flex items-center justify-center">
-                            <BiPhone className="mr-2" />
+                            <BiPhone className="mr-2" size={25} />
                             <Link to="/contact">Contact</Link>
                         </button>
                     </div>
