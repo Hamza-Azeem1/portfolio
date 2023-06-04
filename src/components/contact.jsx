@@ -65,25 +65,41 @@ const Contact = () => {
                     </div>
                     <div className="text-gray-200 font-lg">
                         <label htmlFor="name">Full Name:</label>
-                        <input
+                        {/* <input
                             className="w-full px-5 py-2 border border-gray-300 border-opacity-50 text-black bg-gray-400 rounded-md shadow-sm text-md"
                             type="text"
                             required
                             name="name"
                             placeholder="Your name"
-                        />
+                        /> */}
+                        <textarea
+                            className="w-full px-5 py-2 border border-gray-300 border-opacity-50 text-black bg-gray-400 rounded-md shadow-sm text-md"
+                            id="name"
+                            name="name"
+                            cols="2"
+                            rows="1"
+                            aria-label="Name"
+                        ></textarea>
                     </div>
                     <div className="text-gray-200 font-lg mt-5">
-                        <label htmlFor="email" label="message" name="user_message">
+                        <label htmlFor="email">
                             Email id:
                         </label>
-                        <input
+                        {/* <input
                             className="w-full px-5 py-2 border border-gray-300 border-opacity-50 text-black bg-gray-400 rounded-md shadow-sm text-md"
                             type="email"
                             name="email"
                             placeholder="example@domain.com"
                             required
-                        />
+                        /> */}
+                        <textarea
+                            className="w-full px-5 py-2 border border-gray-300 border-opacity-50 text-black bg-gray-400 rounded-md shadow-sm text-md"
+                            id="email"
+                            name="email"
+                            cols="2"
+                            rows="1"
+                            aria-label="Email"
+                        ></textarea>
                     </div>
                     <div className="mt-6">
                         <label className="text-gray-200 block text-lg text-dark mb-2" htmlFor="email_body">
