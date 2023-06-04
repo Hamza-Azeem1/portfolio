@@ -3,6 +3,22 @@ import PropTypes from 'prop-types';
 import projects from './data/projectsData';
 import { FiAlertCircle } from 'react-icons/fi';
 
+const ProjectButton = ({ href, text }) => (
+    <a
+        href={href}
+        target="_blank"
+        rel="noopener noreferrer"
+        className="ml-2 inline-block px-4 py-2 bg-gray-500 text-white font-medium rounded hover:bg-gray-600 transition-colors duration-200"
+    >
+        {text}
+    </a>
+);
+
+ProjectButton.propTypes = {
+    href: PropTypes.string.isRequired,
+    text: PropTypes.string.isRequired,
+};
+
 const Project = ({ imageSrc, title, description, liveLink, codeLink }) => {
     const [isHovered, setIsHovered] = useState(false);
 
@@ -24,22 +40,8 @@ const Project = ({ imageSrc, title, description, liveLink, codeLink }) => {
                 <img src={imageSrc} alt={title} className="w-full rounded-t-lg" />
                 {isHovered && (
                     <div className="absolute inset-0 flex justify-center items-center bg-black bg-opacity-50 transition-opacity duration-200">
-                        <a
-                            href={liveLink}
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            className="ml-2 inline-block px-4 py-2 bg-gray-500 text-white font-medium rounded hover:bg-gray-600 transition-colors duration-200"
-                        >
-                            Live
-                        </a>
-                        <a
-                            href={codeLink}
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            className="ml-2 inline-block px-4 py-2 bg-gray-500 text-white font-medium rounded hover:bg-gray-600 transition-colors duration-200"
-                        >
-                            Source Code
-                        </a>
+                        <ProjectButton href={liveLink} text="Live" />
+                        <ProjectButton href={codeLink} text="Source Code" />
                     </div>
                 )}
             </div>
@@ -62,7 +64,7 @@ Project.propTypes = {
 const ProjectList = () => {
     return (
         <>
-            <h1 className='text-white font-bold text-4xl mt-10 mb-20'>Projects Portfolio</h1>
+            <h1 className="text-white font-bold text-4xl mt-10 mb-20">Projects Portfolio</h1>
             <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8 mb-20">
                 {projects.map((project) => (
                     <Project
@@ -81,7 +83,8 @@ const ProjectList = () => {
             </div>
         </>
     );
-
 };
 
 export default ProjectList;
+
+
