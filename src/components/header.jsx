@@ -2,7 +2,7 @@ import { useState } from 'react';
 import { AiOutlineMenu, AiOutlineClose } from 'react-icons/ai';
 import { BiCodeCurly, BiUser, BiPhone } from 'react-icons/bi';
 import { Link } from 'react-router-dom';
-import logo from "../assets/logo.png";
+// import logo from "../assets/logo.png";
 
 const Header = () => {
     const [isSidebarOpen, setSidebarOpen] = useState(false);
@@ -13,11 +13,9 @@ const Header = () => {
 
     return (
         <nav className="flex items-center justify-between px-4 py-3 text-white">
-            <div className="flex items-center justify-between">
-                {/* <Link to="/">Hamza</Link> */}
-                <Link to="/">
-                    <img src={logo} alt="logo" className="w-20 h-16" />
-                </Link>
+            <div className="text-4xl font-bold">
+                <Link to="/">Hamza</Link>
+                {/* <img src={logo} alt="logo" className="w-16 h-16" /> */}
             </div>
             <div className={`relative md:hidden`}>
                 <button className="text-4xl" onClick={handleToggle}>
