@@ -2,7 +2,7 @@ import { useState } from 'react';
 import { AiOutlineMenu, AiOutlineClose } from 'react-icons/ai';
 import { BiCodeCurly, BiUser, BiPhone } from 'react-icons/bi';
 import { Link } from 'react-router-dom';
-import logo from "../assets/logo.jpg";
+import logo from "../assets/logo.png";
 
 const Header = () => {
     const [isSidebarOpen, setSidebarOpen] = useState(false);
