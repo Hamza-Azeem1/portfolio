@@ -16,7 +16,7 @@ const Header = () => {
             <div className="flex items-center justify-between">
                 {/* <Link to="/">Hamza</Link> */}
                 <Link to="/">
-                    <img src={logo} alt="logo" className="w-16 h-16" />
+                    <img src={logo} alt="logo" className="w-20 h-16" />
                 </Link>
             </div>
             <div className={`relative md:hidden`}>
