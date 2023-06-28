@@ -10,14 +10,6 @@ import img8 from '../../assets/Project Images/slider.png'
 const projects = [
     {
         id: 1,
-        imageSrc: img1,
-        liveLink: 'https://12stopwatch-js.netlify.app/',
-        codeLink: 'https://github.com/Hamza-Azeem1/StopWatch-JS.git',
-        description: 'Supercharge your project development with our robust lab.',
-        title: 'Javascript StopWatch',
-    },
-    {
-        id: 2,
         imageSrc: img2,
         liveLink: 'https://react-project2-tours.netlify.app',
         codeLink: 'https://github.com/Hamza-Azeem1/React-tours.git',
@@ -25,7 +17,7 @@ const projects = [
         title: 'Tours Site',
     },
     {
-        id: 3,
+        id: 2,
         imageSrc: img3,
         liveLink: 'https://react-project3-accordion.netlify.app',
         codeLink: 'https://github.com/Hamza-Azeem1/React-accordion.git',
@@ -33,7 +25,7 @@ const projects = [
         title: 'Accordion',
     },
     {
-        id: 4,
+        id: 3,
         imageSrc: img4,
         liveLink: 'https://react-project7-grocery.netlify.app',
         codeLink: 'https://github.com/Hamza-Azeem1/React-cart.git',
@@ -41,7 +33,7 @@ const projects = [
         title: 'Cart',
     },
     {
-        id: 5,
+        id: 4,
         imageSrc: img5,
         liveLink: 'https://react-project6-colorgenerator.netlify.app',
         codeLink: 'https://github.com/Hamza-Azeem1/React-ColorGenerator.git',
@@ -49,7 +41,7 @@ const projects = [
         title: 'Color Generator',
     },
     {
-        id: 6,
+        id: 5,
         imageSrc: img6,
         liveLink: 'https://react-project8-cart.netlify.app',
         codeLink: 'https://github.com/Hamza-Azeem1/React-reducer.git',
@@ -57,7 +49,7 @@ const projects = [
         title: 'Item Reducer',
     },
     {
-        id: 7,
+        id: 6,
         imageSrc: img7,
         liveLink: 'https://react-projetc4-menu.netlify.app',
         codeLink: 'https://github.com/Hamza-Azeem1/React-menu.git',
@@ -65,12 +57,20 @@ const projects = [
         title: 'Menu',
     },
     {
-        id: 8,
+        id: 7,
         imageSrc: img8,
         liveLink: 'https://react-project5-slider.netlify.app',
         codeLink: 'https://github.com/Hamza-Azeem1/React-slider.git',
         description: 'Supercharge your project development with our robust lab.',
         title: 'Slider',
+    },
+    {
+        id: 8,
+        imageSrc: img1,
+        liveLink: 'https://12stopwatch-js.netlify.app/',
+        codeLink: 'https://github.com/Hamza-Azeem1/StopWatch-JS.git',
+        description: 'Supercharge your project development with our robust lab.',
+        title: 'Javascript StopWatch',
     },
 ];
 export default projects;
