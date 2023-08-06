@@ -1,7 +1,7 @@
 import img1 from '../../assets/Project Images/jsStopwatch.png'
 import img2 from '../../assets/Project Images/tours.png'
 import img3 from '../../assets/Project Images/accordion.png'
-import img4 from '../../assets/Project Images/cart.png'
+import img4 from '../../assets/Project Images/todo.png'
 import img5 from '../../assets/Project Images/color-generator.png'
 import img6 from '../../assets/Project Images/grocery.png'
 import img7 from '../../assets/Project Images/menu.png'
@@ -27,10 +27,10 @@ const projects = [
     {
         id: 3,
         imageSrc: img4,
-        liveLink: 'https://react-project7-grocery.netlify.app',
+        liveLink: 'https://react-project7-todo.netlify.app',
         codeLink: 'https://github.com/Hamza-Azeem1/React-cart.git',
         description: 'Supercharge your project development with our robust lab.',
-        title: 'Cart',
+        title: 'To do APP',
     },
     {
         id: 4,
@@ -46,7 +46,7 @@ const projects = [
         liveLink: 'https://react-project8-cart.netlify.app',
         codeLink: 'https://github.com/Hamza-Azeem1/React-reducer.git',
         description: 'Supercharge your project development with our robust lab.',
-        title: 'Item Reducer',
+        title: 'Shopping Cart',
     },
     {
         id: 6,
