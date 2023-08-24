@@ -27,15 +27,15 @@ const About = () => {
                     creative developer to bring your ideas to life, feel free to get in touch with me.
                     I&#39;d love to collaborate on your next project!
                 </p>
-                <div className="mt-8">
-                    <h1 className="text-white font-bold text-3xl mb-2">Let&#39;s Talk</h1>
-                    <h4 className="text-xl text-gray-200 mb-4">Feel free to contact me... I will be in touch with you soon....</h4>
-                    <div className="flex items-center justify-center md:justify-start">
-                        <Link to="/contact" className="cursor-pointer font-medium w-40 md:w-auto px-4 py-2.5 text-white text-center tracking-wider bg-indigo-500 hover:bg-indigo-600 focus:ring-1 focus:ring-indigo-900 rounded-lg mt-6 duration-500 flex items-center justify-center">
-                            <BiPhone className="mr-2" size={25} />
-                            Contact
-                        </Link>
-                    </div>
+            </div>
+            <div className="mt-8">
+                <h1 className="text-white font-bold text-3xl mb-2">Let&#39;s Talk</h1>
+                <h4 className="text-xl text-gray-200 mb-4">Feel free to contact me... I will be in touch with you soon....</h4>
+                <div className="flex items-center justify-center md:justify-start">
+                    <Link to="/contact" className="cursor-pointer font-medium w-40 md:w-auto px-4 py-2.5 text-white text-center tracking-wider bg-indigo-500 hover:bg-indigo-600 focus:ring-1 focus:ring-indigo-900 rounded-lg mt-6 duration-500 flex items-center justify-center">
+                        <BiPhone className="mr-2" size={25} />
+                        Contact
+                    </Link>
                 </div>
             </div>
         </section>
