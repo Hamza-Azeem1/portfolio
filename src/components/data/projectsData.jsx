@@ -6,6 +6,7 @@ import img5 from '../../assets/Project Images/color-generator.png'
 import img6 from '../../assets/Project Images/grocery.png'
 import img7 from '../../assets/Project Images/menu.png'
 import img8 from '../../assets/Project Images/slider.png'
+import img9 from '../../assets/Project Images/weatherapp.png'
 
 const projects = [
     {
@@ -71,6 +72,14 @@ const projects = [
         codeLink: 'https://github.com/Hamza-Azeem1/StopWatch-JS.git',
         description: 'Supercharge your project development with our robust lab.',
         title: 'Javascript StopWatch',
+    },
+    {
+        id: 9,
+        imageSrc: img9,
+        liveLink: 'https://react-project9-weatherapp.netlify.app',
+        codeLink: 'https://github.com/Hamza-Azeem1/weather-app.git',
+        description: 'Supercharge your project development with our robust lab.',
+        title: 'Weather App',
     },
 ];
 export default projects;
