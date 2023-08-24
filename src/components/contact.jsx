@@ -72,7 +72,7 @@ const Contact = () => {
                             cols="2"
                             rows="1"
                             aria-label="Name"
-                            placeholder='your Name'
+                            placeholder='Your Name'
                         ></textarea>
                     </div>
                     <div className="text-gray-200 font-lg mt-5">
@@ -99,7 +99,7 @@ const Contact = () => {
                             name="message"
                             cols="14"
                             rows="6"
-                            placeholder='type your message here'
+                            placeholder='Write your message here'
                             aria-label="Message"
                         ></textarea>
                     </div>
