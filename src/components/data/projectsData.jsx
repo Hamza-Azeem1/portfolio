@@ -76,7 +76,7 @@ const projects = [
     {
         id: 9,
         imageSrc: img9,
-        liveLink: 'https://react-project9-weatherapp.netlify.app',
+        liveLink: 'https://react-project9-weather-app.vercel.app/',
         codeLink: 'https://github.com/Hamza-Azeem1/weather-app.git',
         description: 'Supercharge your project development with our robust lab.',
         title: 'Weather App',
