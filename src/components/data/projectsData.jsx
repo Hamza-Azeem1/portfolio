@@ -7,6 +7,7 @@ import img6 from '../../assets/Project Images/grocery.png'
 import img7 from '../../assets/Project Images/menu.png'
 import img8 from '../../assets/Project Images/slider.png'
 import img9 from '../../assets/Project Images/weatherapp.png'
+import img10 from '../../assets/Project Images/currencyconverter.png'
 
 const projects = [
     {
@@ -80,6 +81,14 @@ const projects = [
         codeLink: 'https://github.com/Hamza-Azeem1/weather-app.git',
         description: 'Supercharge your project development with our robust lab.',
         title: 'Weather App',
+    },
+    {
+        id: 10,
+        imageSrc: img10,
+        liveLink: 'https://react-project9-currencyconverter.vercel.app/',
+        codeLink: 'https://github.com/Hamza-Azeem1/CurrencyConverter.git',
+        description: 'Supercharge your project development with our robust lab.',
+        title: 'Currency Converter',
     },
 ];
 export default projects;
