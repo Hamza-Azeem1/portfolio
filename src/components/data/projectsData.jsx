@@ -85,7 +85,7 @@ const projects = [
     {
         id: 10,
         imageSrc: img10,
-        liveLink: 'https://react-project9-currencyconverter.vercel.app/',
+        liveLink: 'https://react-project10-currencyconverter.vercel.app/',
         codeLink: 'https://github.com/Hamza-Azeem1/CurrencyConverter.git',
         description: 'Supercharge your project development with our robust lab.',
         title: 'Currency Converter',
