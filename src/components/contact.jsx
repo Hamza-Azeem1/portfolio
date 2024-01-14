@@ -7,13 +7,16 @@ import { FiSend } from 'react-icons/fi';
 import contacts from './data/contactDetails';
 
 const Contact = () => {
+    const serviceId = import.meta.env.VITE_REACT_APP_SERVICE_ID;
+    const templateId = import.meta.env.VITE_REACT_APP_TEMPLATE_ID;
+    const publicId = import.meta.env.VITE_REACT_APP_PUBLIC_ID;
     const form = useRef();
 
     const sendEmail = (e) => {
         e.preventDefault();
 
         emailjs
-            .sendForm('service_ksk5es2', 'template_7vfsh8k', form.current, 'pyh0a-vwzAtbDy5NB')
+            .sendForm(serviceId, templateId, form.current, publicId)
             .then(
                 (result) => {
                     console.log(result.text);
@@ -90,7 +93,7 @@ const Contact = () => {
                         ></textarea>
                     </div>
                     <div className="mt-6">
-                        <label className="text-gray-200 block text-lg text-dark mb-2" htmlFor="email_body">
+                        <label className="text-gray-200 block text-lg text-dark mb-2" htmlFor="message">
                             Message:
                         </label>
                         <textarea
