@@ -8,14 +8,6 @@ import About from "./components/about";
 import NotFound from "./components/notfound";
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
-const PageNotFound = () => (
-  <>
-    <Header />
-    <NotFound />
-    <Footer />
-  </>
-);
-
 function App() {
   return (
     <Router>
@@ -25,7 +17,7 @@ function App() {
         <Route path="/projects" element={<Projects />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/about" element={<About />} />
-        <Route path="*" element={<PageNotFound />} />
+        <Route path="*" element={<NotFound />} />
       </Routes>
       <Footer />
     </Router>
