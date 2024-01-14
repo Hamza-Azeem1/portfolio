@@ -8,6 +8,12 @@ import About from "./components/about";
 import NotFound from "./components/notfound";
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
+
+const PageNotFound = () => (
+  <NotFound />
+);
+
+
 function App() {
   return (
     <Router>
