@@ -68,29 +68,29 @@ const Contact = () => {
                     </div>
                     <div className="text-gray-200 font-lg">
                         <label htmlFor="name">Full Name:</label>
-                        <textarea
+                        <input
+                            type="text"
                             className="w-full px-5 py-2 border border-gray-300 border-opacity-50 text-black bg-gray-200 rounded-md shadow-sm text-md"
                             id="name"
                             name="name"
-                            cols="2"
-                            rows="1"
                             aria-label="Name"
                             placeholder='Your Name'
-                        ></textarea>
+                            required
+                        />
                     </div>
                     <div className="text-gray-200 font-lg mt-5">
                         <label htmlFor="email">
-                            Email id:
+                            Email:
                         </label>
-                        <textarea
+                        <input
+                            type="email"
                             className="w-full px-5 py-2 border border-gray-300 border-opacity-50 text-black bg-gray-200 rounded-md shadow-sm text-md"
                             id="email"
                             name="email"
-                            cols="2"
-                            rows="1"
-                            placeholder='example@domain.com'
                             aria-label="Email"
-                        ></textarea>
+                            placeholder='example@domain.com'
+                            required
+                        />
                     </div>
                     <div className="mt-6">
                         <label className="text-gray-200 block text-lg text-dark mb-2" htmlFor="message">
@@ -104,6 +104,7 @@ const Contact = () => {
                             rows="6"
                             placeholder='Write your message here'
                             aria-label="Message"
+                            required
                         ></textarea>
                     </div>
                     <div className="flex items-center">
