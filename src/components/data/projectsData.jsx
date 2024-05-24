@@ -1,4 +1,6 @@
-import img1 from '../../assets/Project Images/jsStopwatch.png'
+import img1 from '../../assets/Project Images/cryptoverse.png'
+import img11 from '../../assets/Project Images/brainwave.png'
+import img12 from '../../assets/Project Images/react-mui.png'
 import img2 from '../../assets/Project Images/tours.png'
 import img3 from '../../assets/Project Images/accordion.png'
 import img4 from '../../assets/Project Images/todo.png'
@@ -12,6 +14,30 @@ import img10 from '../../assets/Project Images/currencyconverter.png'
 const projects = [
     {
         id: 1,
+        imageSrc: img1,
+        liveLink: 'https://mycrypto-verse.vercel.app',
+        codeLink: 'https://github.com/Hamza-Azeem1/CryptoVerse.git',
+        description: 'Supercharge your project development with our robust lab.',
+        title: 'Tours Site',
+    },
+    {
+        id: 2,
+        imageSrc: img11,
+        liveLink: 'https://hamza-brainwave.vercel.app',
+        codeLink: 'https://github.com/Hamza-Azeem1/mysite.git',
+        description: 'Supercharge your project development with our robust lab.',
+        title: 'Tours Site',
+    },
+    {
+        id: 3,
+        imageSrc: img12,
+        liveLink: 'https://react-mui1.vercel.app',
+        codeLink: 'https://github.com/Hamza-Azeem1/React_MUI.git',
+        description: 'Supercharge your project development with our robust lab.',
+        title: 'Tours Site',
+    },
+    {
+        id: 4,
         imageSrc: img2,
         liveLink: 'https://react-project2-tours.netlify.app',
         codeLink: 'https://github.com/Hamza-Azeem1/React-tours.git',
@@ -19,7 +45,7 @@ const projects = [
         title: 'Tours Site',
     },
     {
-        id: 2,
+        id: 5,
         imageSrc: img3,
         liveLink: 'https://react-project3-accordion.netlify.app',
         codeLink: 'https://github.com/Hamza-Azeem1/React-accordion.git',
@@ -27,7 +53,7 @@ const projects = [
         title: 'Accordion',
     },
     {
-        id: 3,
+        id: 6,
         imageSrc: img4,
         liveLink: 'https://react-project7-todo.netlify.app',
         codeLink: 'https://github.com/Hamza-Azeem1/React-cart.git',
@@ -35,7 +61,7 @@ const projects = [
         title: 'To do APP',
     },
     {
-        id: 4,
+        id: 7,
         imageSrc: img5,
         liveLink: 'https://react-project6-colorgenerator.netlify.app',
         codeLink: 'https://github.com/Hamza-Azeem1/React-ColorGenerator.git',
@@ -43,7 +69,7 @@ const projects = [
         title: 'Color Generator',
     },
     {
-        id: 5,
+        id: 8,
         imageSrc: img6,
         liveLink: 'https://react-project8-cart.netlify.app',
         codeLink: 'https://github.com/Hamza-Azeem1/React-reducer.git',
@@ -51,7 +77,7 @@ const projects = [
         title: 'Shopping Cart',
     },
     {
-        id: 6,
+        id: 9,
         imageSrc: img7,
         liveLink: 'https://react-projetc4-menu.netlify.app',
         codeLink: 'https://github.com/Hamza-Azeem1/React-menu.git',
@@ -59,7 +85,7 @@ const projects = [
         title: 'Menu',
     },
     {
-        id: 7,
+        id: 10,
         imageSrc: img8,
         liveLink: 'https://react-project5-slider.netlify.app',
         codeLink: 'https://github.com/Hamza-Azeem1/React-slider.git',
@@ -67,15 +93,7 @@ const projects = [
         title: 'Slider',
     },
     {
-        id: 8,
-        imageSrc: img1,
-        liveLink: 'https://12stopwatch-js.netlify.app/',
-        codeLink: 'https://github.com/Hamza-Azeem1/StopWatch-JS.git',
-        description: 'Supercharge your project development with our robust lab.',
-        title: 'Javascript StopWatch',
-    },
-    {
-        id: 9,
+        id: 11,
         imageSrc: img9,
         liveLink: 'https://react-project9-weather-app.vercel.app/',
         codeLink: 'https://github.com/Hamza-Azeem1/weather-app.git',
@@ -83,7 +101,7 @@ const projects = [
         title: 'Weather App',
     },
     {
-        id: 10,
+        id: 12,
         imageSrc: img10,
         liveLink: 'https://react-project10-currencyconverter.vercel.app/',
         codeLink: 'https://github.com/Hamza-Azeem1/CurrencyConverter.git',
