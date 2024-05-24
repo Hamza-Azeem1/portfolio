@@ -85,7 +85,7 @@ const ProjectList = ({ showAll }) => {
                 <div className="flex items-center justify-center mb-10">
                     <Link
                         to="/projects"
-                        className="bg-gray-500 hover:bg-gray-600 text-white font-bold py-2 px-4 rounded"
+                        className="cursor-pointer flex items-center justify-center font-general-medium rounded-lg px-4 py-2.5 text-white text-center font-medium bg-indigo-500 hover:bg-indigo-600"
                     >
                         Show More Projects
                     </Link>
