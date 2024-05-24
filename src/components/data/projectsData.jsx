@@ -38,19 +38,19 @@ const projects = [
     },
     {
         id: 4,
-        imageSrc: img2,
-        liveLink: 'https://react-project2-tours.netlify.app',
-        codeLink: 'https://github.com/Hamza-Azeem1/React-tours.git',
+        imageSrc: img10,
+        liveLink: 'https://react-project10-currencyconverter.vercel.app/',
+        codeLink: 'https://github.com/Hamza-Azeem1/CurrencyConverter.git',
         description: 'Supercharge your project development with our robust lab.',
-        title: 'Tours Site',
+        title: 'Currency Converter',
     },
     {
         id: 5,
-        imageSrc: img3,
-        liveLink: 'https://react-project3-accordion.netlify.app',
-        codeLink: 'https://github.com/Hamza-Azeem1/React-accordion.git',
+        imageSrc: img9,
+        liveLink: 'https://react-project9-weather-app.vercel.app/',
+        codeLink: 'https://github.com/Hamza-Azeem1/weather-app.git',
         description: 'Supercharge your project development with our robust lab.',
-        title: 'Accordion',
+        title: 'Weather App',
     },
     {
         id: 6,
@@ -70,12 +70,11 @@ const projects = [
     },
     {
         id: 8,
-        imageSrc: img9,
-        liveLink: 'https://react-project9-weather-app.vercel.app/',
-        codeLink: 'https://github.com/Hamza-Azeem1/weather-app.git',
+        imageSrc: img2,
+        liveLink: 'https://react-project2-tours.netlify.app',
+        codeLink: 'https://github.com/Hamza-Azeem1/React-tours.git',
         description: 'Supercharge your project development with our robust lab.',
-        title: 'Weather App',
-
+        title: 'Tours Site',
     },
     {
         id: 9,
@@ -103,11 +102,11 @@ const projects = [
     },
     {
         id: 12,
-        imageSrc: img10,
-        liveLink: 'https://react-project10-currencyconverter.vercel.app/',
-        codeLink: 'https://github.com/Hamza-Azeem1/CurrencyConverter.git',
+        imageSrc: img3,
+        liveLink: 'https://react-project3-accordion.netlify.app',
+        codeLink: 'https://github.com/Hamza-Azeem1/React-accordion.git',
         description: 'Supercharge your project development with our robust lab.',
-        title: 'Currency Converter',
+        title: 'Accordion',
     },
 ];
 export default projects;
