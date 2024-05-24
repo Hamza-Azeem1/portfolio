@@ -18,7 +18,7 @@ const projects = [
         liveLink: 'https://mycrypto-verse.vercel.app',
         codeLink: 'https://github.com/Hamza-Azeem1/CryptoVerse.git',
         description: 'Supercharge your project development with our robust lab.',
-        title: 'Tours Site',
+        title: 'CryptoVerse',
     },
     {
         id: 2,
@@ -26,7 +26,7 @@ const projects = [
         liveLink: 'https://hamza-brainwave.vercel.app',
         codeLink: 'https://github.com/Hamza-Azeem1/mysite.git',
         description: 'Supercharge your project development with our robust lab.',
-        title: 'Tours Site',
+        title: 'Brain wave',
     },
     {
         id: 3,
@@ -34,7 +34,7 @@ const projects = [
         liveLink: 'https://react-mui1.vercel.app',
         codeLink: 'https://github.com/Hamza-Azeem1/React_MUI.git',
         description: 'Supercharge your project development with our robust lab.',
-        title: 'Tours Site',
+        title: 'React MUI',
     },
     {
         id: 4,
@@ -70,11 +70,12 @@ const projects = [
     },
     {
         id: 8,
-        imageSrc: img6,
-        liveLink: 'https://react-project8-cart.netlify.app',
-        codeLink: 'https://github.com/Hamza-Azeem1/React-reducer.git',
+        imageSrc: img9,
+        liveLink: 'https://react-project9-weather-app.vercel.app/',
+        codeLink: 'https://github.com/Hamza-Azeem1/weather-app.git',
         description: 'Supercharge your project development with our robust lab.',
-        title: 'Shopping Cart',
+        title: 'Weather App',
+
     },
     {
         id: 9,
@@ -94,11 +95,11 @@ const projects = [
     },
     {
         id: 11,
-        imageSrc: img9,
-        liveLink: 'https://react-project9-weather-app.vercel.app/',
-        codeLink: 'https://github.com/Hamza-Azeem1/weather-app.git',
+        imageSrc: img6,
+        liveLink: 'https://react-project8-cart.netlify.app',
+        codeLink: 'https://github.com/Hamza-Azeem1/React-reducer.git',
         description: 'Supercharge your project development with our robust lab.',
-        title: 'Weather App',
+        title: 'Shopping Cart',
     },
     {
         id: 12,

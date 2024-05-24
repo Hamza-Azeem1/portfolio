@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import PropTypes from 'prop-types';
 import projects from './data/projectsData';
-import { FiAlertCircle } from 'react-icons/fi';
+import { useLocation, Link } from 'react-router-dom';
 
 const ProjectButton = ({ href, text }) => (
     <a
@@ -19,7 +19,7 @@ ProjectButton.propTypes = {
     text: PropTypes.string.isRequired,
 };
 
-const Project = ({ imageSrc, title, description, liveLink, codeLink }) => {
+const ProjectCard = ({ imageSrc, title, description, liveLink, codeLink }) => {
     const [isHovered, setIsHovered] = useState(false);
 
     const handleMouseEnter = () => {
@@ -53,7 +53,7 @@ const Project = ({ imageSrc, title, description, liveLink, codeLink }) => {
     );
 };
 
-Project.propTypes = {
+ProjectCard.propTypes = {
     imageSrc: PropTypes.string.isRequired,
     title: PropTypes.string.isRequired,
     description: PropTypes.string.isRequired,
@@ -61,13 +61,16 @@ Project.propTypes = {
     codeLink: PropTypes.string.isRequired,
 };
 
-const ProjectList = () => {
+const ProjectList = ({ showAll }) => {
+    const location = useLocation();
+    const isProjectsPage = location.pathname === '/projects';
+
     return (
         <>
             <h1 className="text-white font-bold text-4xl mt-10 mb-20">Projects Portfolio</h1>
             <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8 mb-20">
-                {projects.map((project) => (
-                    <Project
+                {projects.slice(0, showAll || isProjectsPage ? projects.length : 8).map((project) => (
+                    <ProjectCard
                         key={project.id}
                         imageSrc={project.imageSrc}
                         title={project.title}
@@ -76,16 +79,28 @@ const ProjectList = () => {
                         codeLink={project.codeLink}
                     />
                 ))}
-            </div>
-            <div className="flex items-center justify-center">
-                <FiAlertCircle className="text-white font-extrabold text-5xl md:text-6xl lg:text-7xl xl:text-5xl mr-4" />
-                <span className="text-white font-extrabold text-3xl md:text-4xl lg:text-5xl xl:text-4xl">More Projects Coming Up....</span>
-            </div>
 
+            </div>
+            {!isProjectsPage && (
+                <div className="flex items-center justify-center mb-10">
+                    <Link
+                        to="/projects"
+                        className="bg-gray-500 hover:bg-gray-600 text-white font-bold py-2 px-4 rounded"
+                    >
+                        Show More Projects
+                    </Link>
+                </div>
+            )}
         </>
     );
 };
 
+ProjectList.propTypes = {
+    showAll: PropTypes.bool,
+};
+
+ProjectList.defaultProps = {
+    showAll: false,
+};
+
 export default ProjectList;
-
-

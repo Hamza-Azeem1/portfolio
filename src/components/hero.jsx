@@ -1,9 +1,8 @@
 import { FiArrowDownCircle } from 'react-icons/fi';
-import Projects from "./projects";
+import ProjectList from './projects';
 import DeveloperImg from "../assets/developer.svg";
 
 const Hero = () => {
-
     const handleClick = () => {
         window.open("https://drive.google.com/file/d/1VSgwy2k3hUX_UXAXAp5mT1ViH3sNcJjb/view?usp=sharing");
     }
@@ -33,25 +32,15 @@ const Hero = () => {
                     </div>
                     <div className="w-full sm:w-2/3 text-right float-right mt-8 sm:mt-0">
                         <picture>
-                            <source
-                                srcSet={DeveloperImg}
-                                media="(min-width: 768px)"
-                            />
-                            <img
-                                src={DeveloperImg}
-                                alt="Developer"
-                                className="w-full h-full object-cover"
-                            />
+                            <source srcSet={DeveloperImg} media="(min-width: 768px)" />
+                            <img src={DeveloperImg} alt="Developer" className="w-full h-full object-cover" />
                         </picture>
                     </div>
                 </section>
-                <Projects />
+                <ProjectList showAll={false} />
             </div>
         </>
     );
-};
+}
 
 export default Hero;
-
-// Render Projects component outside the Hero component
-<Hero />
