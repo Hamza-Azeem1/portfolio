@@ -10,6 +10,7 @@ import img7 from '../../assets/Project Images/menu.png'
 import img8 from '../../assets/Project Images/slider.png'
 import img9 from '../../assets/Project Images/weatherapp.png'
 import img10 from '../../assets/Project Images/currencyconverter.png'
+import img13 from '../../assets/Project Images/tellus.png'
 
 const projects = [
     {
@@ -78,6 +79,14 @@ const projects = [
     },
     {
         id: 9,
+        imageSrc: img13,
+        liveLink: 'https://react-tellus.netlify.app/',
+        codeLink: 'https://github.com/Hamza-Azeem1/TellUS.git',
+        description: 'Supercharge your project development with our robust lab.',
+        title: 'Tell Us',
+    },
+    {
+        id: 10,
         imageSrc: img7,
         liveLink: 'https://react-projetc4-menu.netlify.app',
         codeLink: 'https://github.com/Hamza-Azeem1/React-menu.git',
@@ -85,7 +94,7 @@ const projects = [
         title: 'Menu',
     },
     {
-        id: 10,
+        id: 11,
         imageSrc: img8,
         liveLink: 'https://react-project5-slider.netlify.app',
         codeLink: 'https://github.com/Hamza-Azeem1/React-slider.git',
@@ -93,7 +102,7 @@ const projects = [
         title: 'Slider',
     },
     {
-        id: 11,
+        id: 12,
         imageSrc: img6,
         liveLink: 'https://react-project8-cart.netlify.app',
         codeLink: 'https://github.com/Hamza-Azeem1/React-reducer.git',
@@ -101,7 +110,7 @@ const projects = [
         title: 'Shopping Cart',
     },
     {
-        id: 12,
+        id: 13,
         imageSrc: img3,
         liveLink: 'https://react-project3-accordion.netlify.app',
         codeLink: 'https://github.com/Hamza-Azeem1/React-accordion.git',
