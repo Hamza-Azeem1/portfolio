@@ -4,7 +4,7 @@ import DeveloperImg from "../assets/developer.svg";
 
 const Hero = () => {
     const handleClick = () => {
-        window.open("https://drive.google.com/file/d/1IZUQ9jZlr8f4ARrzxXFvEeyjURigkO2Z/view?usp=sharing");
+        window.open("https://drive.google.com/file/d/10PqEzG-T3m4DBQuUqnmO_zPKDmnmO83-/view?usp=sharing");
     }
 
     return (
